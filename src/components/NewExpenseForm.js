@@ -55,8 +55,8 @@ function NewExpenseForm(props) {
       )}
       {isEditing && (
         <form className="new-expense" onSubmit={expenseSubmitHandler}>
-          <div className="title-date">
-            <div>
+          <div className="form-input">
+            <div className="form-title">
               <label htmlFor="title">Title</label>
               <input
                 type="text"
@@ -65,7 +65,7 @@ function NewExpenseForm(props) {
                 value={newTitle}
               />
             </div>
-            <div>
+            <div className="form-amount">
               <label htmlFor="amount">Amount</label>
               <input
                 type="number"
@@ -74,10 +74,10 @@ function NewExpenseForm(props) {
                 value={newAmount}
               />
             </div>
-          </div>
-          <div className="new-expense-date">
-            <label htmlFor="date">Date</label>
-            <input type="date" onChange={dateChangeHandler} value={newDate} />
+            <div className="form-date">
+              <label htmlFor="date">Date</label>
+              <input type="date" onChange={dateChangeHandler} value={newDate} />
+            </div>
           </div>
           <div className="submit-button">
             <button

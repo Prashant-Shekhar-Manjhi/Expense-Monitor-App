@@ -1,20 +1,17 @@
 .expense-form {
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 1rem;
-  margin-top: 10rem;
-  max-width: 60%;
   background-color: #9775fa;
   padding: 2rem;
   border-radius: 9px;
 }
 
-.title-date {
+.form-input {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: start;
   align-items: center;
   margin-bottom: 6rem;
+  gap: 4.8rem;
 }
 
 label {
@@ -22,6 +19,7 @@ label {
   font-weight: 600;
   color: #000;
   margin-right: 2rem;
+  margin-bottom: 2rem;
   display: block;
 }
 input {
@@ -66,4 +64,34 @@ input {
 
 .cancel {
   margin-right: 2rem;
+}
+
+/* media query */
+/* 63em = 1000px */
+@media (max-width: 63em) {
+  .form-input {
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+}
+/* 37em = 592px */
+@media (max-width: 37em) {
+  input {
+    width: 100%;
+  }
+  html {
+    font-size: 45%;
+  }
+}
+/* 25em = 400px */
+@media (max-width: 25em) {
+  .submit-button {
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+    align-items: start;
+  }
+  html {
+    font-size: 40%;
+  }
 }

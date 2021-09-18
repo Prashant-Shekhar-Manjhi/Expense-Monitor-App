@@ -1,0 +1,32 @@
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  border-radius: 0.9rem;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.329);
+  padding: 2rem;
+  color: #fff;
+  background-color: #000;
+}
+.expense-item-title {
+  max-width: 50%;
+  display: flex;
+  gap: 4.8rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.expense-price {
+  border-radius: 5px;
+  border: 1px solid #fff;
+  box-shadow: 0 0 2.4rem #000;
+  padding: 1.2rem 2.4rem;
+  font-size: 1.8rem;
+}
+.expense-title {
+  font-size: 2.4rem;
+  columns: #fff;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}

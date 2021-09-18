@@ -1,0 +1,69 @@
+.expense-form {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  margin-top: 10rem;
+  max-width: 60%;
+  background-color: #9775fa;
+  padding: 2rem;
+  border-radius: 9px;
+}
+
+.title-date {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 6rem;
+}
+
+label {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #000;
+  margin-right: 2rem;
+  display: block;
+}
+input {
+  width: 40rem;
+  height: 3.8rem;
+  border-radius: 9px;
+  padding: 1rem;
+  font-size: 1.8rem;
+  outline: none;
+  display: inline-block;
+}
+
+.new-expense-date {
+  width: 50%;
+  margin-bottom: 6rem;
+}
+.btn {
+  text-transform: uppercase;
+  padding: 1.5rem 2.4rem;
+  background-color: #2e1c63;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 600;
+  outline: none;
+  border-radius: 1.5rem;
+  border: none;
+}
+
+.submit-button {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.submit {
+  display: inline-block;
+}
+
+.add-new-expense {
+  display: flex;
+  justify-content: center;
+}
+
+.cancel {
+  margin-right: 2rem;
+}

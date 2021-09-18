@@ -1,0 +1,54 @@
+.expense-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: #212529;
+  border-radius: 0.9rem;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.021);
+  padding: 0.8rem;
+}
+
+.select-year {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5rem 2rem;
+}
+
+.select-year select {
+  font-size: 1.8rem;
+  display: inline-block;
+  padding: 1rem 3rem;
+  border-radius: 6px;
+  margin-left: 0;
+  border: 0.5px solid #fff;
+  outline: none;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.438);
+  font-weight: 700;
+}
+
+option {
+  background-color: #fff;
+  color: #212529;
+  padding: 1rem 2rem;
+  display: inline-block;
+  border-radius: 6px;
+}
+
+.select-year h3 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.no-record {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+}

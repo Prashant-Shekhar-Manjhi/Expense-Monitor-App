@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/expense-monitor-app/static/css/main.ee8920ad.chunk.css",
+    "main.js": "/expense-monitor-app/static/js/main.a1237190.chunk.js",
+    "main.js.map": "/expense-monitor-app/static/js/main.a1237190.chunk.js.map",
+    "runtime-main.js": "/expense-monitor-app/static/js/runtime-main.39689b01.js",
+    "runtime-main.js.map": "/expense-monitor-app/static/js/runtime-main.39689b01.js.map",
+    "static/js/2.695e301d.chunk.js": "/expense-monitor-app/static/js/2.695e301d.chunk.js",
+    "static/js/2.695e301d.chunk.js.map": "/expense-monitor-app/static/js/2.695e301d.chunk.js.map",
+    "static/js/3.9a39985a.chunk.js": "/expense-monitor-app/static/js/3.9a39985a.chunk.js",
+    "static/js/3.9a39985a.chunk.js.map": "/expense-monitor-app/static/js/3.9a39985a.chunk.js.map",
+    "index.html": "/expense-monitor-app/index.html",
+    "static/css/main.ee8920ad.chunk.css.map": "/expense-monitor-app/static/css/main.ee8920ad.chunk.css.map",
+    "static/js/2.695e301d.chunk.js.LICENSE.txt": "/expense-monitor-app/static/js/2.695e301d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.39689b01.js",
+    "static/js/2.695e301d.chunk.js",
+    "static/css/main.ee8920ad.chunk.css",
+    "static/js/main.a1237190.chunk.js"
+  ]
+}

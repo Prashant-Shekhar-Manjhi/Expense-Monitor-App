@@ -46,6 +46,7 @@ input {
   outline: none;
   border-radius: 1.5rem;
   border: none;
+  margin-right: 1rem;
 }
 
 .submit-button {
@@ -53,17 +54,9 @@ input {
   justify-content: flex-start;
 }
 
-.submit {
-  display: inline-block;
-}
-
 .add-new-expense {
   display: flex;
   justify-content: center;
-}
-
-.cancel {
-  margin-right: 2rem;
 }
 
 /* media query */
@@ -90,6 +83,16 @@ input {
     gap: 2rem;
     width: 100%;
     align-items: start;
+  }
+  /* .submit {
+    display: block;
+    width: 100%;
+    margin-right: 0;
+  } */
+
+  .btn {
+    display: block;
+    width: 100%;
   }
   html {
     font-size: 40%;

@@ -11,7 +11,7 @@ let dummyExpences = [
     amount: 94.12,
     date: new Date(2020, 7, 14),
   },
-  { id: "e2", title: "New TV", amount: 799.49, date: new Date(2021, 2, 12) },
+  { id: "e2", title: "New TV", amount: 79.49, date: new Date(2021, 2, 12) },
   {
     id: "e3",
     title: "Car Insurance",
@@ -30,7 +30,7 @@ let dummyExpences = [
     amount: 9.12,
     date: new Date(2018, 7, 14),
   },
-  { id: "e2", title: "New TV", amount: 799.49, date: new Date(2021, 2, 12) },
+
   {
     id: "e6",
     title: "Car",
